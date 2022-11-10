@@ -1,5 +1,7 @@
 export default {
   npmClient: "pnpm",
-  tailwindcss: {},
-  plugins: ["@umijs/plugins/dist/tailwindcss"],
+  extraPostCSSPlugins: [
+    require('tailwindcss')(),
+    require('autoprefixer')()
+  ]
 };
