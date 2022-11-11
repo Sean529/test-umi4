@@ -1,6 +1,8 @@
 module.exports = {
-  content: ['./src/pages/**/*.tsx', './src/components/**.tsx', './src/layouts/**.tsx', 
-  './src/utils.ts'],
+  content: [
+    './src/**/*.tsx',
+    './src/**/*.ts'
+  ],
   theme: {
     fontFamily: {
       'b-Bold': 'Barlow-Bold',

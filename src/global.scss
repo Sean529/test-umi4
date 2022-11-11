@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer utilities {
+  .toast {
+    @apply fixed left-1/2 box-border flex min-h-[58px] w-[275px] translate-x-[-50%] animate-toast items-center justify-center rounded-md bg-[rgba(0,0,0,0.7)] py-[10px] px-[15px] text-center font-bv-Regular text-sm leading-[14px] text-[#fff];
+  }
+  .a-apply {
+    @apply border text-blue-600;
+  }
+}
