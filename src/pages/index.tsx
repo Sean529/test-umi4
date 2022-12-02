@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import { Cell, List, PullRefresh, Tabs } from 'react-vant'
+import React, { useState } from "react"
+import { Cell, List, PullRefresh, Tabs } from "react-vant"
 
 // 模拟异步请求
 async function getData(throwError?: any) {
   return new Promise<number[]>((resolve, reject) => {
     setTimeout(() => {
       if (throwError) {
-        reject(new Error('error'))
+        reject(new Error("error"))
       }
       resolve(Array.from({ length: 10 }, (_, i) => i))
     }, 2000)
@@ -94,7 +94,7 @@ const PullRefreshDemo = () => {
 
 export default () => (
   <div className="demo-list">
-    <div className="mt-20 flex h-full w-344 items-center justify-center font-bv-SemiBold text-30 font-semibold">hhhhhhhhhhhhhhhhhh</div>
+    <div className="flex h-full w-375 bg-gray-4 items-center justify-center text-white text-30 font-semibold">hhhhhhhhhhhhhhhhhh</div>
     <Tabs sticky>
       <Tabs.TabPane title="基本用法">
         <BaseDemo />
