@@ -17,6 +17,7 @@ async function getData(throwError?: any) {
 const BaseDemo = () => {
   const [list, setList] = useState<Array<number>>([])
   const [finished, setFinished] = useState<boolean>(false)
+  console.log('%c AT 🥝 bbb 🥝-21', 'font-size:13px; background:#e8fd14; color:#ffff58;', bbb)
 
   const onLoad = async () => {
     const data = await getData()

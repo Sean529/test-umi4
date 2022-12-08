@@ -2,7 +2,7 @@
   "private": true,
   "author": "AT <atxiesz@gmail.com>",
   "scripts": {
-    "dev": "umi dev",
+    "dev": "UMI_ENV=sss umi dev",
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",

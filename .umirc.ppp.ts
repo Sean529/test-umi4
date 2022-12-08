@@ -19,6 +19,6 @@ export default defineConfig({
     })
   ],
   define: {
-    bbb: 'dddd'
+    bbb: 'prod'
   }
 })
